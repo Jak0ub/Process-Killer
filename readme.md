@@ -1,20 +1,18 @@
-## Funguje pouze na Windows
+## Works only on Windows
 
-> ⚠️ **Upozornění:**
-> Windows Vám může zobrazit okno SmartScreen. Pokud máte obavy, můžete soubor vložit na VirusTotal, nebo můžete nahlédnout do kódu samotného(Jedná se o OpenSource). Pokud kódu nerozumíte, nedoporučuji program spouštět, můžete totiž ukončit důležitý proces
+> ⚠️ **Warning:**  
+> Windows may display a SmartScreen window. If you're concerned, you can upload the file to VirusTotal or review the code itself (it's Open Source). If you do not understand the code, it is not recommended to run the program, as you might accidentally terminate an essential process.
 
 ## SHA-256
-```SHA-256
+```
 40B13BBF311F47E9E0E374EB97542645BB898E92F1DC53D01EBA7F7603596122
 ```
 
-> ℹ️ **Doporučení:**
-> Jedná se o taskkill s parametrem -F, proto budou i systémové procesy ukončeny(s administrátorskými oprávněními). Berte na vědomí rizika ukončování systémových procesů
+> ℹ️ **Recommendation:**  
+> This is a taskkill command with the -F parameter, so system processes will also be terminated (with administrator privileges). Be aware of the risks of terminating system processes.
 
+## Description
+Upon starting the file, a CLI interface will open where you can check the availability of a process. If the process is found, the user will be prompted to confirm whether they want to terminate it. If "1" is entered for YES, the process will be terminated. In the event of an error, the user will be informed.
 
-## Popis
-Po zapnutí souboru se spustí CLI, ve kterém lze vyhledat dostupnost procesu. Pokud byl proces nalezen, bude uživatel dotázán jestli chce proces ukončit. V případě inputu 1 pro ANO, bude proces ukončen. V případě chyby je uživatel informován
-
-
-> ⚠️ **Varování:**
-> `NESPOUŠTĚJTE JAKO ADMINISTRÁTOR, POKUD NECHCETE UKONČIT SYSTÉMOVÉ PROCESY`
+> ⚠️ **Warning:**  
+> `DO NOT RUN AS ADMINISTRATOR UNLESS YOU WANT TO TERMINATE SYSTEM PROCESSES`
