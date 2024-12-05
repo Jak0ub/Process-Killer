@@ -11,7 +11,7 @@ FD7886B1E4212E86AF82D58CACD6C22789D89396F491D252436306896A823374
 > Be aware of the risks of terminating system processes.
 
 ## Description
-Upon starting the file, a CLI interface will open where you can check the availability of a process. If the process is found, the user will be prompted to confirm whether they want to terminate it. If "1" is entered for YES, the process will be terminated. In the event of an error, the user will be informed.
+Upon starting the file, a CLI interface will open where you can check the availability of a process. If the process is found, the user will be prompted to confirm whether they want to terminate it. In the event of an error, the user will be informed.
 
 > ⚠️ **Warning:**  
 > `DO NOT RUN AS ADMINISTRATOR/ROOT UNLESS YOU WANT TO TERMINATE SYSTEM PROCESSES`
