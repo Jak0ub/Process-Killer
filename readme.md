@@ -1,8 +1,8 @@
 
-> ⚠️ **Warning:**  
+> ⚠️ **Warning for `.bat`:**  
 > Windows may display a SmartScreen window. If you're concerned, you can upload the file to VirusTotal or review the code itself (it's Open Source). If you do not understand the code, it is not recommended to run the program, as you might accidentally terminate an essential process.
- 
-> > ⚠️ **Warning:**  
+
+> ⚠️ **Warning for `.sh`:**  
 > The code is not perfect, but it works. There is one thing for you to consider. The thing is, that when you enter for example("nc"), but you have another process named ("helloNC.*"), it will kill both, because it both have ("nc") init.
 
 ## .bat SHA-256 hash
