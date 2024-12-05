@@ -2,12 +2,12 @@
 > ⚠️ **Warning:**  
 > Windows may display a SmartScreen window. If you're concerned, you can upload the file to VirusTotal or review the code itself (it's Open Source). If you do not understand the code, it is not recommended to run the program, as you might accidentally terminate an essential process.
 
-## SHA-256 for .bat
+## .bat SHA-256 hash
 ```
 FD7886B1E4212E86AF82D58CACD6C22789D89396F491D252436306896A823374
 ```
 
-## SHA-256 for .sh
+## .sh SHA-256 hash
 ```
 7910DC56E64107C900384B91B5AC10AB580A6B621E562F4C7A2DBF86400F8C05
 ```
