@@ -1,4 +1,7 @@
 
+> ℹ️ **Recommendation:**  
+> The `.sh` one is only for advanced people, so i will not write here how to make file executable
+
 > ⚠️ **Warning for `.bat`:**  
 > Windows may display a SmartScreen window. If you're concerned, you can upload the file to VirusTotal or review the code itself (it's Open Source). If you do not understand the code, it is not recommended to run the program, as you might accidentally terminate an essential process.
 
