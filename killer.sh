@@ -13,7 +13,7 @@ echo "Do you want to terminate this process? (y/n): "
 read choice
 echo " "
 if [ "$choice" = "y" ]; then
-    pid=$(ps aux | grep $wanted | grep -v "grep" | colrm 1 11 | colrm 6 1000)
+    pid=$(ps aux | grep $wanted | grep -v "grep" | colrm 1 9 | colrm 8 1000)
     kill -9 $pid
     echo "Process terminated."
 else
